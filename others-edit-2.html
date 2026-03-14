@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -513,24 +513,24 @@
     <header>
         <div class="nav-bubble">
             <nav>
-                <a href="index.html#home" title="Home">
+                <a href="index.html#home" title="Home" data-i18n-title="nav.home">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
                     </svg>
                 </a>
-                <a href="index.html#work" title="Work">
+                <a href="index.html#work" title="Work" data-i18n-title="nav.work">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polygon points="23 7 16 12 23 17 23 7"></polygon>
                         <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                     </svg>
                 </a>
-                <a href="index.html#about" title="About">
+                <a href="index.html#about" title="About" data-i18n-title="nav.about">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                         <circle cx="12" cy="7" r="4"></circle>
                     </svg>
                 </a>
-                <a href="index.html#contact" title="Contact">
+                <a href="index.html#contact" title="Contact" data-i18n-title="nav.contact">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                         <polyline points="22,6 12,13 2,6"></polyline>
@@ -549,14 +549,14 @@
 
     <section class="page-hero">
         <div class="hero-inner">
-            <h1 class="page-title">Others Edits</h1>
-            <p class="page-subtitle">THE CREATIVE PLAYGROUND</p>
-            <p class="page-description">Where rules are bent and creativity runs wild. This collection features edits that defy convention — bold choices, unexpected rhythms, and artistic explorations that prove the best work often comes from daring to be different.</p>
+            <h1 class="page-title" data-i18n="page.others2.title">Others Edits</h1>
+            <p class="page-subtitle" data-i18n="page.others2.subtitle">THE CREATIVE PLAYGROUND</p>
+            <p class="page-description" data-i18n="page.others2.desc">Where rules are bent and creativity runs wild. This collection features edits that defy convention — bold choices, unexpected rhythms, and artistic explorations that prove the best work often comes from daring to be different.</p>
         </div>
     </section>
 
     <section class="content-section">
-        <h2 class="section-title reveal">Featured Videos</h2>
+        <h2 class="section-title reveal" data-i18n="featured.videos">Featured Videos</h2>
         <div class="video-grid">
             <div class="video-card reveal">
                 <div class="video-wrapper">
@@ -564,13 +564,13 @@
                     <iframe src="https://drive.google.com/file/d/VIDEO_FILE_ID/preview" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="video-info">
-                    <h3>Others Edits</h3>
-                    <p>Georgio Chiriac</p>
+                    <h3 data-i18n="page.others2.title">Others Edits</h3>
+                    <p data-i18n="video.author">Georgio Chiriac</p>
                 </div>
             </div>
             <div class="add-more reveal">
                 <div class="add-more-icon">+</div>
-                <span>More coming soon</span>
+                <span data-i18n="more.coming">More coming soon</span>
             </div>
         </div>
     </section>
@@ -581,12 +581,12 @@
                 <line x1="19" y1="12" x2="5" y2="12"></line>
                 <polyline points="12 19 5 12 12 5"></polyline>
             </svg>
-            Back to Work
+            <span data-i18n="back.to.work">Back to Work</span>
         </a>
     </div>
 
     <footer>
-        <p>© 2026 Georgio Chiriac. All rights reserved.</p>
+        <p data-i18n="footer.rights">© 2026 Georgio Chiriac. All rights reserved.</p>
     </footer>
 
     <script>
@@ -614,5 +614,6 @@
             });
         });
     </script>
+    <script src="translations.js"></script>
 </body>
 </html>

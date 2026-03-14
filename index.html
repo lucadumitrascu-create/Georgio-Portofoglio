@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -870,24 +870,24 @@
     <header>
         <div class="nav-bubble">
             <nav>
-                <a href="#home" title="Home">
+                <a href="#home" title="Home" data-i18n-title="nav.home">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
                     </svg>
                 </a>
-                <a href="#work" title="Work">
+                <a href="#work" title="Work" data-i18n-title="nav.work">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polygon points="23 7 16 12 23 17 23 7"></polygon>
                         <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                     </svg>
                 </a>
-                <a href="#about" title="About">
+                <a href="#about" title="About" data-i18n-title="nav.about">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                         <circle cx="12" cy="7" r="4"></circle>
                     </svg>
                 </a>
-                <a href="#contact" title="Contact">
+                <a href="#contact" title="Contact" data-i18n-title="nav.contact">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                         <polyline points="22,6 12,13 2,6"></polyline>
@@ -908,20 +908,20 @@
         <div id="vanta-bg"></div>
         <div class="hero-content">
             <h1 class="glass-title">Georgio</h1>
-            <p class="glass-subtitle">Video Editor</p>
+            <p class="glass-subtitle" data-i18n="hero.subtitle">Video Editor</p>
             <div class="hero-line"></div>
         </div>
     </section>
 
     <section id="about">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title" data-i18n="about.title">About Me</h2>
         <div class="about-grid">
             <div class="glass-card about-card" data-tilt>
-                <h3>Who I Am</h3>
-                <p>I'm Georgio Chiriac, a passionate video editor dedicated to transforming raw footage into compelling visual stories. With an eye for detail and a love for cinematic aesthetics, I bring creative visions to life.</p>
+                <h3 data-i18n="about.who">Who I Am</h3>
+                <p data-i18n="about.who.text">I'm Georgio Chiriac, a passionate video editor dedicated to transforming raw footage into compelling visual stories. With an eye for detail and a love for cinematic aesthetics, I bring creative visions to life.</p>
             </div>
             <div class="glass-card about-card" data-tilt>
-                <h3>Skills</h3>
+                <h3 data-i18n="about.skills">Skills</h3>
                 <div class="skills-icons">
                     <div class="skill-icon adobe-icon" style="background: #00005B;">
                         <span style="color: #9999FF;">Pr</span>
@@ -938,18 +938,18 @@
                 </div>
             </div>
             <div class="glass-card about-card" data-tilt>
-                <h3>Vision</h3>
-                <p>Every frame tells a story. I believe in crafting edits that not only look stunning but evoke emotion and leave a lasting impression on viewers.</p>
+                <h3 data-i18n="about.vision">Vision</h3>
+                <p data-i18n="about.vision.text">Every frame tells a story. I believe in crafting edits that not only look stunning but evoke emotion and leave a lasting impression on viewers.</p>
             </div>
             <div class="glass-card about-card" data-tilt>
-                <h3>My Approach</h3>
-                <p>I believe great videos start with great conversations. I take time to understand your story, your goals, and what matters most to you. Then I craft each edit with intention—choosing the right moments, the perfect pace, and music that amplifies emotion. It's not just about making it look good; it's about making you feel something.</p>
+                <h3 data-i18n="about.approach">My Approach</h3>
+                <p data-i18n="about.approach.text">I believe great videos start with great conversations. I take time to understand your story, your goals, and what matters most to you. Then I craft each edit with intention—choosing the right moments, the perfect pace, and music that amplifies emotion. It's not just about making it look good; it's about making you feel something.</p>
             </div>
         </div>
     </section>
 
     <section id="work">
-        <h2 class="section-title">Work</h2>
+        <h2 class="section-title" data-i18n="work.title">Work</h2>
         <div class="portfolio-container">
             <div class="portfolio-grid" id="carousel">
                 <a href="showreel.html" class="portfolio-card">
@@ -991,7 +991,7 @@
     </section>
 
     <section id="contact">
-        <h2 class="section-title">Let's Collaborate</h2>
+        <h2 class="section-title" data-i18n="contact.title">Let's Collaborate</h2>
         <div class="contact-icons">
             <a href="#" class="glass-card contact-card" data-tilt>
                 <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
@@ -1006,7 +1006,7 @@
     </section>
 
     <footer>
-        <p>© 2026 Georgio Chiriac. All rights reserved.</p>
+        <p data-i18n="footer.rights">© 2026 Georgio Chiriac. All rights reserved.</p>
     </footer>
 
     <!-- Vanta.js Scripts -->
@@ -1200,5 +1200,6 @@
         window.addEventListener('scroll', revealOnScroll);
         revealOnScroll(); // Check on load
     </script>
+    <script src="translations.js"></script>
 </body>
 </html>
